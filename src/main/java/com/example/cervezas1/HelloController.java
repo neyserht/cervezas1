@@ -61,6 +61,7 @@ public class HelloController {
 
             // Establecer el primer elemeno como el valor por defecto
             comboBox2.getSelectionModel().selectFirst();
+
         } else if (comboBox1.getValue().toString().equals(comboBox1.getItems().get(2).toString()))
         {
             // Añadir un grupo de elemento, eliminando los anteriores
