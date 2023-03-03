@@ -14,9 +14,7 @@ public class HelloController {
     @FXML
     private Label label1;
     @FXML
-    private ComboBox comboBox1;
-    @FXML
-    private ComboBox comboBox2;
+    private ComboBox comboBox1, comboBox2;
     @FXML
     private RadioButton radioButton1;
     @FXML
@@ -77,6 +75,14 @@ public class HelloController {
     @FXML
     protected void f2()
     {
+        //label1.setText(comboBox2.getValue().toString());
+
+        // Obtener el precio de una marca de cerveza
+
+
+
+        label1.setText(cartaCervezas1.get(comboBox2.getValue()).toString());
+
 
     }
 }
